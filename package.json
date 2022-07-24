@@ -1,0 +1,23 @@
+{
+  "name": "pug-template",
+  "version": "1.0.0",
+  "description": "Example of a simple website using Pug",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug templates/*.pug --pretty --out ./build"
+  },
+  "keywords": [],
+  "author": "Lucas Dantas da Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.9",
+    "@babel/node": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-core": "^6.26.3",
+    "express": "^4.18.1",
+    "i": "^0.3.7",
+    "npm": "^8.15.0",
+    "pug": "^3.0.2",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}
